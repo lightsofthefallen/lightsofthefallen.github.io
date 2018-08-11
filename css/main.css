@@ -37,8 +37,8 @@ div#content-wrapper {
 div#content {
 	float: right;
 	width: 70%;
-	margin-left: 5%;
-	margin-right: 5%;
+	/*margin-left: 5%;
+	margin-right: 5%;*/
 	display: inline;
 }
 div#logo {
@@ -52,8 +52,8 @@ div#logo img {
 div#sidebar {
 	float: left;
 	width: 30%;
-	margin-left: 2%;
-	margin-right: 2%;
+	/*margin-left: 2%;
+	margin-right: 2%;*/
 	display: inline;
 }
 div#footer {
