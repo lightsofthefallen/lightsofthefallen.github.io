@@ -107,7 +107,7 @@ ul.side-nav li a {
 	display: block;
 	/*border-bottom: 1px solid #e9e7e7;*/
 	margin: 0;
-	/*padding: 10px 0 10px 20px;*/
+	padding: 1vw 0 1vw 0;
 }
 ul.side-nav li a:link, ul.side-nav li a:visited {
 	color: #978f7c;
