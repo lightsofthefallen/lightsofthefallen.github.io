@@ -42,12 +42,11 @@ div#content {
 	display: inline;
 }
 div#logo {
-	width: 90%;
+	width: 80%;
 	height: auto;
-	margin-top: 4px;
 }
 div#logo img {
-	margin-top: 85px;
+	margin-top: 10px;
 }
 div#sidebar {
 	float: left;
