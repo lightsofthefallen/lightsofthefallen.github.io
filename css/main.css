@@ -42,7 +42,7 @@ div#content {
 	display: inline;
 }
 div#logo {
-	width: 30%;
+	width: 100%;
 	height: auto;
 	margin-top: 2%;
 	margin-left: 2%;
@@ -71,7 +71,7 @@ ul#nav {
     margin: 0 0 20px 0;
 	height: 40px;
 	line-height: 45px;
-	font-size: 1.2em;
+	font-size: 2vw;
 	font-family: 'Verdana';
 	overflow: hidden;
 }
@@ -93,7 +93,7 @@ ul#nav li a:hover {
 ul.side-nav {
 	/*margin: 10px 5px 10px 17px;*/
 	/*border-bottom: 1px solid #e9e7e7;*/
-	font-size: .7em;
+	font-size: 2vw;
 	color: #978f7c;
 	text-transform: uppercase;
 }
@@ -126,15 +126,15 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3vw;
+    font-size: 4vw;
     font-family:'Verdana';
 }
 h2 {
-    font-size: 2vw;
+    font-size: 3vw;
     font-family:'Verdana';
 	color: #ff9000;
 }
 p {
-    font-size: 1.5vw;
+    font-size: 2vw;
     line-height: 1.4vw;
 }
