@@ -89,14 +89,13 @@ ul#nav li a:hover {
 /*side nav style*/
 ul.side-nav {
 	margin: 10px 5px 10px 17px;
-	border-top: 1px solid #e9e7e7;
+	/*border-top: 1px solid #e9e7e7;*/
 	font-size: .7em;
 	color: #978f7c;
 	text-transform: uppercase;
 }
 ul.side-nav li {
 	margin: 0;
-	/*list-style-type: none;*/
 	padding: 1px 0;
 }
 ul.side-nav li a {
@@ -104,7 +103,6 @@ ul.side-nav li a {
 	border-bottom: 1px solid #e9e7e7;
 	margin: 0;
 	padding: 10px 0 10px 20px;
-	/*background: url(../images/side-nav-bullet.gif) no-repeat 5px 50%;*/
 }
 ul.side-nav li a:link, ul.side-nav li a:visited {
 	color: #978f7c;
