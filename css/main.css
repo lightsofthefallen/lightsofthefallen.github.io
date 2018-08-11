@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 /*body style*/
 body {
     margin: 1% auto;
-    text-size: 1em;
+    text-size: 1vw;
     font-family: 'Verdana';
 }
 
@@ -127,15 +127,15 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3vw;
+    font-size: 4vw;
     font-family:'Verdana';
 }
 h2 {
-    font-size: 2vw;
+    font-size: 3vw;
     font-family:'Verdana';
 	color: #ff9000;
 }
 p {
-    font-size: 1vw;
+    font-size: 2vw;
     line-height: 1vw;
 }
