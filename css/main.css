@@ -29,7 +29,7 @@ div#inner-wrapper{
     background-color:#696969;
 }
 div#content-wrapper {
-	width: 100%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -52,7 +52,7 @@ div#logo img {
 }
 div#sidebar {
 	float: left;
-	width: 30%;
+	width: 20%;
 	display: inline;
 }
 div#footer {
