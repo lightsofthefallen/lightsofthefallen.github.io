@@ -28,6 +28,12 @@ div#content-wrapper {
 	margin-right: auto;
 	text-align: left;
 }
+div#content {
+	float: right;
+	width: 730px;
+	margin-right: 30px;
+	display: inline;
+}
 div#logo {
 	background: url(../images/Logo.png) no-repeat;
 	/*width: 194px;
@@ -76,7 +82,7 @@ ul.side-nav {
 }
 ul.side-nav li {
 	margin: 0;
-	list-style-type: none;
+	/*list-style-type: none;*/
 	padding: 1px 0;
 }
 ul.side-nav li a {
