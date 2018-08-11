@@ -42,13 +42,13 @@ div#content {
 	display: inline;
 }
 div#logo {
-	width: 100%;
+	width: 96%;
 	height: auto;
 	margin-top: 2%;
 	margin-left: 2%;
 }
 div#logo img {
-	width: 100%;
+	width: 96%;
 	height: auto;
 }
 div#sidebar {
@@ -69,9 +69,9 @@ div#footer {
 /*nav style*/
 ul#nav {
     margin: 0 0 20px 0;
-	height: 40px;
-	line-height: 45px;
-	font-size: 2vw;
+	height: 1vw;
+	line-height: 1vw;
+	font-size: 1vw;
 	font-family: 'Verdana';
 	overflow: hidden;
 }
@@ -93,7 +93,7 @@ ul#nav li a:hover {
 ul.side-nav {
 	/*margin: 10px 5px 10px 17px;*/
 	/*border-bottom: 1px solid #e9e7e7;*/
-	font-size: 2vw;
+	font-size: 1vw;
 	color: #978f7c;
 	text-transform: uppercase;
 }
@@ -126,15 +126,15 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 4vw;
+    font-size: 3vw;
     font-family:'Verdana';
 }
 h2 {
-    font-size: 3vw;
+    font-size: 2vw;
     font-family:'Verdana';
 	color: #ff9000;
 }
 p {
-    font-size: 2vw;
-    line-height: 1.4vw;
+    font-size: 1vw;
+    line-height: 1vw;
 }
