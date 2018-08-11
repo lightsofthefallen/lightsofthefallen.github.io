@@ -36,7 +36,7 @@ div#content {
 	display: inline;
 }
 div#logo {
-	background: url(../images/Logo.png) no-repeat;
+	/*background: url(../images/Logo.png) no-repeat;*/
 	/*width: 194px;
 	height: 225px;*/
 	margin-top: 4px;
@@ -128,4 +128,5 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+	font-family:'Verdana';
 }
