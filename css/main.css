@@ -8,6 +8,12 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 20px;
 }
 
+/*viewport*/
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+} 
+
 /*body style*/
 body {
     margin: 60px auto;
