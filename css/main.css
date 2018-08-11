@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 /*body style*/
 body {
-    margin: 2% auto;
+    /*margin: 2% auto;*/
     text-size: 1em;
     font-family: 'Verdana';
 }
@@ -37,6 +37,7 @@ div#content-wrapper {
 div#content {
 	float: right;
 	width: 70%;
+	margin-top: 2%;
 	/*margin-left: 5%;
 	margin-right: 5%;*/
 	display: inline;
