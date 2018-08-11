@@ -1,7 +1,7 @@
 /*default style*/
 * {
     box-sizing: border-box;
-    background-color:#A9A9A9;
+    background-color:#3c3c3c;
 }
 h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 20px;
@@ -23,10 +23,10 @@ body {
 
 /*div group layout*/
 div#outer-wrapper {
-    background-color:#A9A9A9;
+    
 }
 div#inner-wrapper{
-    background-color:#A9A9A9;
+    
 }
 div#content-wrapper {
 	width: 100%;
