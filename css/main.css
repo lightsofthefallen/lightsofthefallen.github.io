@@ -53,11 +53,12 @@ div#sidebar {
 div#footer {
 	clear: both;
 	border-top: 1px solid #5e534f;
-	background-color: #e7e5d2;
 	padding: 10px;
+	text-size: .8em;
+    	font-family: 'Verdana';
 }
 
-/*group nav style*/
+/*nav style*/
 ul#nav {
     margin: 0 0 20px 0;
 	height: 40px;
@@ -80,6 +81,7 @@ ul#nav li a:hover {
 	color: #3f3e3a;
 }
 
+/*side nav style*/
 ul.side-nav {
 	margin: 10px 5px 10px 17px;
 	border-top: 1px solid #e9e7e7;
