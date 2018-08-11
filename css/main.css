@@ -61,7 +61,7 @@ div#sidebar {
 }
 div#footer {
 	clear: both;
-	border-top: 1px solid #FFFFFF;
+	border-top: 1% solid #FFFFFF;
 	padding: 1vw;
 	text-size: .5vw;
     	font-family: 'Verdana';
@@ -69,7 +69,7 @@ div#footer {
 
 /*nav style*/
 ul#nav {
-    margin: 0 0 20px 0;
+    margin: 0 0 2% 0;
 	height: 1vw;
 	line-height: 1vw;
 	font-size: 1vw;
@@ -80,7 +80,7 @@ ul#nav li {
 	display: inline;
 	list-style-type: none;
 	text-transform: uppercase;
-	margin: 0 20px 0 0;
+	margin: 0 2% 0 0;
 }
 ul#nav li a:link, ul#nav li a:visited {
 	color: #7d7257;
