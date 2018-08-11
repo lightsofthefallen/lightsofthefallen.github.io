@@ -50,6 +50,12 @@ div#sidebar {
 	width: 210px;
 	display: inline;
 }
+div#footer {
+	clear: both;
+	border-top: 1px solid #5e534f;
+	background-color: #e7e5d2;
+	padding: 10px;
+}
 
 /*group nav style*/
 ul#nav {
@@ -122,11 +128,4 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-
-
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-	font-family:'Verdana';
 }
