@@ -91,7 +91,7 @@ ul#nav li a:hover {
 
 /*side nav style*/
 ul.side-nav {
-	/*margin: 10px 5px 10px 17px;*/
+	margin: 1vw 1vw 1vw 1vw;
 	/*border-bottom: 1px solid #e9e7e7;*/
 	font-size: 1vw;
 	color: #978f7c;
@@ -101,7 +101,7 @@ ul.side-nav li {
 	margin: 0;
 	/*border-bottom: 1px solid #e9e7e7;*/
 	list-style-type: none;
-	padding: 1px 0;
+	/*padding: 1px 0;*/
 }
 ul.side-nav li a {
 	display: block;
