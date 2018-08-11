@@ -88,7 +88,7 @@ ul#nav li a:hover {
 
 /*side nav style*/
 ul.side-nav {
-	margin: 10px 5px 10px 17px;
+	/*margin: 10px 5px 10px 17px;*/
 	border-top: 1px solid #e9e7e7;
 	font-size: .7em;
 	color: #978f7c;
