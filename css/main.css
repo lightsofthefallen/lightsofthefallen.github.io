@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 /*body style*/
 body {
     margin: 60px auto;
-    width: 70%;
     text-size: 1em;
     font-family: 'Verdana';
 }
@@ -30,14 +29,14 @@ div#inner-wrapper{
     background-color:#696969;
 }
 div#content-wrapper {
-	width: 1000px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
 }
 div#content {
 	float: right;
-	width: 730px;
+	width: 70%;
 	margin-right: 30px;
 	display: inline;
 }
@@ -53,7 +52,7 @@ div#logo img {
 }
 div#sidebar {
 	float: left;
-	width: 210px;
+	width: 30%;
 	display: inline;
 }
 div#footer {
@@ -134,6 +133,6 @@ h2 {
 }
 p {
     font-size: 1.5vw;
-    line-height: 1.4em;
+    line-height: 1.4vw;
     color: #333;
 }
