@@ -46,6 +46,7 @@ div#logo {
 	height: auto;
 }
 div#logo img {
+	width: 26%;
 	margin-top: 2%;
 	margin-left: 2%;
 }
