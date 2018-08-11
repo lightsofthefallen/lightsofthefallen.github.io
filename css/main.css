@@ -44,11 +44,12 @@ div#content {
 div#logo {
 	width: 30%;
 	height: auto;
-}
-div#logo img {
-	width: 26%;
 	margin-top: 2%;
 	margin-left: 2%;
+}
+div#logo img {
+	width: 100%;
+	height: auto;
 }
 div#sidebar {
 	float: left;
