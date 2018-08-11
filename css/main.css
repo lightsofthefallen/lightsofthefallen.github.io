@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, p, ul, li {
 
 /*body style*/
 body {
-    margin: 60px auto;
+    margin: 2% auto;
     text-size: 1em;
     font-family: 'Verdana';
 }
@@ -50,6 +50,8 @@ div#logo {
 div#logo img {
 	width: 96%;
 	height: auto;
+	margin-top: 2%;
+	margin-left: 2%;
 }
 div#sidebar {
 	float: left;
