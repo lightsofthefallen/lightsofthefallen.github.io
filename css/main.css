@@ -2,6 +2,9 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+div#outer-wrapper{
+    background-color:#696969;
+}
 nav ul, footer ul {
     font-family:'Verdana';
     padding: 0px;
