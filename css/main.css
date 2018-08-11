@@ -40,11 +40,9 @@ div#content {
 	display: inline;
 }
 div#logo {
-	/*background: url(../images/Logo.png) no-repeat;*/
-	/*width: 194px;
-	height: 225px;*/
+	width: 90%;
+	height: auto;
 	margin-top: 4px;
-	/*text-align: center;*/
 }
 div#logo img {
 	margin-top: 85px;
@@ -109,7 +107,6 @@ ul.side-nav li a:link, ul.side-nav li a:visited {
 	text-decoration: none;
 }
 ul.side-nav li a:hover {
-	/*background: url(../images/side-nav-bullet-light.gif) no-repeat 5px 50% #f6f5f0;*/
 	color: #cac6ba;
 }
 
