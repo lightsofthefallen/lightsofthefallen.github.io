@@ -24,7 +24,7 @@
                         </div>-->
 						<ul class= "side-nav">
 							<h2>DASHBOARD</h2>
-							<li><a href="index.html">HOME</a></li>
+							<li id="home"><a href="#">HOME</a></li>
                             <li id="leaderboard"><a href="#">LEADERBOARD</a></li>
 						</ul> <!--end of side nav list-->
 						<ul class= "side-nav">
@@ -57,6 +57,11 @@
 	</script>-->
     
     <script>
+		$('#home').on({
+		'click': function() {
+			$('#raid-image').attr('src','');
+			}
+		});
 		$('#leaderboard').on({
 		'click': function() {
 			$('#raid-image').attr('src','images/leaderboard.png');
