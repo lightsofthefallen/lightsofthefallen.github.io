@@ -1,7 +1,7 @@
 /*default style*/
 * {
     box-sizing: border-box;
-    background-color:#3c3c3c;
+    background-color:#333;
 }
 h1, h2, h3, h4, h5, h6, p, ul, li {
     margin: 2%;
@@ -99,7 +99,7 @@ ul.side-nav {
 	text-transform: uppercase;
 }
 ul.side-nav li {
-	margin: 0;
+	/*margin: 0;*/
 	/*border-bottom: 1px solid #e9e7e7;*/
 	list-style-type: none;
 	/*padding: 1px 0;*/
@@ -107,7 +107,7 @@ ul.side-nav li {
 ul.side-nav li a {
 	display: block;
 	/*border-bottom: 1px solid #e9e7e7;*/
-	margin: 0;
+	/*margin: 0;*/
 	padding: 1vw 1vw 1vw 1vw;
 }
 ul.side-nav li a:link, ul.side-nav li a:visited {
@@ -183,4 +183,5 @@ p {
 }
 img {
 	width: 100%;
+	height: auto;
 }
