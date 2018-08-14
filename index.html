@@ -16,17 +16,11 @@
 						<div id= "logo">
 							<img src ="images/Logo.png"/>
 						</div> <!--end of logo-->
-                        <!--<div class= "dropdown">
-                        	<button class= "dropbtn">ROSTER</button>
-                            <div class= "dropdown-content">
-                            	<a href="#">ULTIMUS RAID V</a>
-                                <a href="#">THANOS RAID III</a>
-                        </div>-->
 						<ul class= "side-nav">
-                        
 							<h2>DASHBOARD</h2>
 							<li id="home"><a href="/">HOME</a></li>
                             <li id="leaderboard"><a href="#">LEADERBOARD</a></li>
+							<li id="achievement"><a href="#">ACHIEVEMENT</a></li>
 						</ul> <!--end of side nav list-->
 						<ul class= "side-nav">
 							<h2>ROSTER</h2>
@@ -37,7 +31,7 @@
                     <div id= "content">
 						<h1>Welcome to <span style="color: #ff9000">LIGHTS OF</span> THE FALLEN!</h1>
                         <div id= "content-actual">
-                        <p><img id="raid-image"/></p>
+                        <p><img id="page-image"/></p>
                         </div>
 						<!--<ul id= "nav">
 							<li><a href="index">HOME</a></li>
@@ -60,22 +54,27 @@
     <script>
 		$('#home').on({
 		'click': function() {
-			$('#raid-image').attr('src','');
+			$('#page-image').attr('src','');
 			}
 		});
 		$('#leaderboard').on({
 		'click': function() {
-			$('#raid-image').attr('src','images/leaderboard.png');
+			$('#page-image').attr('src','images/leaderboard.png');
+			}
+		});
+		$('#achievement').on({
+		'click': function() {
+			$('#page-image').attr('src','images/achievement.png');
 			}
 		});
 		$('#ultimus-raid-v-label').on({
 		'click': function() {
-			$('#raid-image').attr('src','images/UltimusRaid5.jpg');
+			$('#page-image').attr('src','images/UltimusRaid5.jpg');
 			}
 		});
 		$('#thanos-raid-iii-label').on({
 		'click': function() {
-			$('#raid-image').attr('src','images/ThanosRaid3.jpg');
+			$('#page-image').attr('src','images/ThanosRaid3.jpg');
 			}
 		});
 	</script>
