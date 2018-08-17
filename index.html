@@ -51,6 +51,8 @@
 		'click': function() {
 			$('#page-image').attr('src','');
 			$('#leaderboard-sheet').attr('iframe','');
+			var getframe = document.getElementById("leaderboard-sheet");
+			getframe.remove();
 			}
 		});
 		$('#leaderboard').on({
@@ -63,18 +65,24 @@
 		'click': function() {
 			$('#page-image').attr('src','images/achievement.jpg');
 			$('#leaderboard-sheet').attr('iframe','');
+			var getframe = document.getElementById("leaderboard-sheet");
+			getframe.remove();
 			}
 		});
 		$('#ultimus-raid-v-label').on({
 		'click': function() {
 			$('#page-image').attr('src','images/UltimusRaid5.jpg');
 			$('#leaderboard-sheet').attr('iframe','');
+			var getframe = document.getElementById("leaderboard-sheet");
+			getframe.remove();
 			}
 		});
 		$('#thanos-raid-iii-label').on({
 		'click': function() {
 			$('#page-image').attr('src','images/ThanosRaid3.jpg');
 			$('#leaderboard-sheet').attr('iframe','');
+			var getframe = document.getElementById("leaderboard-sheet");
+			getframe.remove();
 			}
 		});
 	</script>
