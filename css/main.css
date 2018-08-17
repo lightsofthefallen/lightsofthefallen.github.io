@@ -41,6 +41,7 @@ div#content {
 	/*margin-left: 5%;
 	margin-right: 5%;*/
 	display: inline;
+	position: fixed;
 }
 div#logo {
 	width: 90%;
