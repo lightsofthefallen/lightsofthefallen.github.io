@@ -41,6 +41,14 @@ div#content {
 	/*margin-left: 5%;
 	margin-right: 5%;*/
 	display: inline;
+	position: fixed;
+}
+div#content-actual {
+	float: right;
+	width: 70%;
+	/*margin-left: 5%;
+	margin-right: 5%;*/
+	display: inline;
 }
 div#logo {
 	width: 90%;
