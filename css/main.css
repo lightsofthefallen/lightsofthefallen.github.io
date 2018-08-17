@@ -49,12 +49,12 @@ div#content-actual {
 	display: inline;
 }
 div#logo {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	margin-left: 5%;
 }
 div#logo img {
-	width: 90%;
+	width: 100%;
 	height: auto;
 	margin-left: 5%;
 }
