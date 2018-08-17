@@ -35,9 +35,9 @@
 						<div id="image-type">
                         	<p><img id="page-image"/></p>
 						</div>
-						<div id="frame-type">
+						<!--<div id="frame-type">
 							<p><iframe id="leaderboard-sheet"></iframe></p>
-						</div>
+						</div>-->
 					</div> <!--end of content-actual-->
 				</div> <!--end of content-wrapper-->
 				<!--<div id= "footer">
@@ -54,33 +54,34 @@
 		$('#home').on({
 		'click': function() {
 			$('#page-image').attr('src','');
-			var x = document.getElementById("frame-type")'
-			x.style.display = "none";
-			$('#leaderboard-sheet').remove();
+			//var x = document.getElementById("frame-type")'
+			//x.style.display = "none";
+			//$('#leaderboard-sheet').remove();
 			}
 		});
 		$('#leaderboard').on({
 		'click': function() {
 			$('#page-image').attr('src','');
-			$('#leaderboard-sheet').attr('iframe','https://docs.google.com/spreadsheets/d/e/2PACX-1vTnnlLzVk29ZT0ptYCCqdH7fszUl_Bkc9YZS5rr1Xs1PhUv2xaN-NkSvME2rqVc5ekIpjXNZyuLslD7/pubhtml?gid=906407624&single=true');
+			$('#page-image').attr('src','images/leaderboard.png');
+			//$('#leaderboard-sheet').attr('iframe','https://docs.google.com/spreadsheets/d/e/2PACX-1vTnnlLzVk29ZT0ptYCCqdH7fszUl_Bkc9YZS5rr1Xs1PhUv2xaN-NkSvME2rqVc5ekIpjXNZyuLslD7/pubhtml?gid=906407624&single=true');
 			}
 		});
 		$('#achievement').on({
 		'click': function() {
 			$('#page-image').attr('src','images/achievement.jpg');
-			$('#leaderboard-sheet').attr('');
+			//$('#leaderboard-sheet').attr('');
 			}
 		});
 		$('#ultimus-raid-v-label').on({
 		'click': function() {
 			$('#page-image').attr('src','images/UltimusRaid5.jpg');
-			$('#leaderboard-sheet').attr('');
+			//$('#leaderboard-sheet').attr('');
 			}
 		});
 		$('#thanos-raid-iii-label').on({
 		'click': function() {
 			$('#page-image').attr('src','images/ThanosRaid3.jpg');
-			$('#leaderboard-sheet').attr('');
+			//$('#leaderboard-sheet').attr('');
 			}
 		});
 	</script>
