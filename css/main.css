@@ -58,6 +58,7 @@ div#sidebar {
 	/*margin-left: 2%;
 	margin-right: 2%;*/
 	display: inline;
+	position: fixed;
 }
 div#footer {
 	clear: both;
