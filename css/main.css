@@ -49,7 +49,7 @@ div#content-actual {
 	display: inline;
 }
 div#logo {
-	float: right;
+	float: left;
 	width: 30%;
 	height: auto;
 	margin-right: 5%;
