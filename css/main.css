@@ -72,6 +72,7 @@ div#footer {
 	padding: 1vw;
 	text-size: .5vw;
     	font-family: 'Verdana';
+	bottom:0;
 }
 
 /*nav style*/
