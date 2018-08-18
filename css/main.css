@@ -64,9 +64,9 @@ div#sidebar {
 	/*margin-left: 2%;
 	margin-right: 2%;*/
 	display: inline;
-	position: fixed;
+	/*position: fixed;
 	overflow-y: scroll;
-	/*overflow: hidden;*/
+	overflow: hidden;*/
 }
 div#footer {
 	clear: both;
