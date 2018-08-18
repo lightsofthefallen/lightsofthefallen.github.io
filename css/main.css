@@ -48,11 +48,6 @@ div#content-actual {
 	margin-right: 5%;*/
 	display: inline;
 }
-div#nav {
-	float: right;
-	width: 100%;
-	display: block;
-}
 div#logo {
 	width: 90%;
 	height: auto;
@@ -80,7 +75,7 @@ div#footer {
 }
 
 /*nav style*/
-ul#nav {
+ul.nav {
     margin: 0 0 2% 0;
 	height: 1vw;
 	line-height: 1vw;
@@ -88,17 +83,17 @@ ul#nav {
 	font-family: 'Verdana';
 	overflow: hidden;
 }
-ul#nav li {
+ul.nav li {
 	display: inline;
 	list-style-type: none;
 	text-transform: uppercase;
 	margin: 0 2% 0 0;
 }
-ul#nav li a:link, ul#nav li a:visited {
+ul.nav li a:link, ul#nav li a:visited {
 	color: #7d7257;
 	text-decoration: none;
 }
-ul#nav li a:hover {
+ul.nav li a:hover {
 	color: #3f3e3a;
 }
 
