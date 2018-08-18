@@ -1,4 +1,4 @@
 $.get("index.html", function(data){
-	$("#side-nav").replaceWith(data);
+	$("#side-bar").replaceWith(data);
 	//$("#footer").replaceWith(data);
 });
