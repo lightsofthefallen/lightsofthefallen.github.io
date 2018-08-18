@@ -202,3 +202,8 @@ iframe {
 	height: 1000px;
 	frameborder: 0;
 }
+table {
+	background: #000000;
+	font-family: 'Verdana';
+	font-size: 1vw;
+}
