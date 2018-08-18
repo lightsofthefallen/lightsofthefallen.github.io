@@ -67,7 +67,6 @@ div#sidebar {
 	position: fixed;
 	overflow-y: scroll;
 	overflow: hidden;
-	max-height: 100%;
 }
 div#footer {
 	clear: both;
