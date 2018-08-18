@@ -202,6 +202,11 @@ iframe {
 	height: 1000px;
 	frameborder: 0;
 }
+
+/*table style*/
+div#roster-table {
+	position: relative;
+}
 table {
 	background: #000000;
 	font-family: 'Verdana';
