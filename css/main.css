@@ -208,7 +208,7 @@ div#roster-table {
 	position: relative;
 }
 table {
-	background-color: #000000;
+	/*background-color: #000000;*/
 	font-family: 'Verdana';
 	font-size: 1vw;
 	position: absolute;
@@ -216,9 +216,9 @@ table {
 	padding-left: 9.5%;
 	padding-right: 9.5%;
 	text-align: center;
-	border: none;
 }
 td {
+	background-color: #000000;
 	align: center;
 	width: 9%;
 }
