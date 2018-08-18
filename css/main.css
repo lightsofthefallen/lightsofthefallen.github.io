@@ -216,6 +216,7 @@ table {
 	padding-left: 9.5%;
 	padding-right: 9.5%;
 	text-align: center;
+	border-collapse:collapse;
 }
 td {
 	align: center;
