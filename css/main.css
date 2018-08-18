@@ -213,6 +213,8 @@ table {
 	font-size: 1vw;
 	position: absolute;
 	align: center;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 td {
 	align: center;
