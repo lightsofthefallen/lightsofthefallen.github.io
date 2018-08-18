@@ -5,17 +5,18 @@
 		<title>Ultimus Raid V</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-        <link rel="import" href="index.html">
+		<link rel="import" href="index.html">
 	</head>
 	<body>
 		<div id= "outer-wrapper">
 			<div id= "inner-wrapper">
 				<div id= "content-wrapper">	
-                	                 	
                     <div id= "side-nav">
                     </div><!--end of side nav-->
                     <div id= "content">
-						
+						<div id="content-actual">
+							<p><img src="images/UltimusRaid5.jpg"/></p>
+						</div>
 					</div> <!--end of content-->
 				</div> <!--end of content-wrapper-->
                 <div id= "footer">
@@ -23,22 +24,4 @@
 			</div> <!--end of inner-wrapper-->
 		</div> <!--end of outer-wrapper-->
 	</body>	
-    
-    <script>
-    // Handle Loaded Templates.
-    function templatesLoaded(event) {
-      console.log('Templates loaded.');
-	  
-    }
-
-    // Handle Errors.
-    function templatesFailed(event) {
-      console.log('Templates could not be loaded.');
-    }
-	</script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-	<script src="js/jquery.js"></script>
-
-<link id="templates" rel="import" href="index.html" onload="templatesLoaded(event)" onerror="templatesFailed(event)">
-
 </html>
