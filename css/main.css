@@ -68,9 +68,7 @@ div#sidebar {
 }
 div#footer {
 	clear: both;
-	border-top: 1% solid #FFFFFF;
-	padding: 1vw;
-	text-size: .5vw;
+	text-size: .3vw;
 	font-family: 'Verdana';
 	position: fixed;
 	bottom:0;
