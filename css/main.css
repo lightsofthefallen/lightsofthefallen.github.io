@@ -48,6 +48,11 @@ div#content-actual {
 	margin-right: 5%;*/
 	display: inline;
 }
+div#nav {
+	float: right;
+	width: 80%;
+	display: block;
+}
 div#logo {
 	width: 90%;
 	height: auto;
